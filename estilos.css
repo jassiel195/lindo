@@ -1,0 +1,142 @@
+/* Precios alineados a la derecha en el menú */
+/* .precio-derecha eliminada durante restauración */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+}
+
+.cuadro-emprendimiento {
+    background: #181818;
+    border-radius: 30px;
+    box-shadow: 0 6px 32px rgba(255,140,0,0.15);
+    padding: 35px 25px 30px 25px;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+    border: 2px solid #ff9900;
+}
+
+.texto-decorativo {
+    font-size: 1.5rem;
+    color: #ff9900;
+    font-family: 'Segoe Script', cursive, Arial;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px #fff;
+}
+
+.logo-emprendimiento {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0 4px 24px #ff9900a0;
+    display: block;
+    margin: 30px auto 25px auto;
+    border: 6px solid #ff9900;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    background: #222;
+}
+.logo-emprendimiento:hover {
+    transform: scale(1.07) rotate(-2deg);
+    box-shadow: 0 8px 32px #fff;
+    border-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, background 0.3s;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+nav ul li a:hover {
+    color: #ff9900;
+    background: #222;
+}
+
+.boton-link {
+    background: #ff9900;
+    color: #fff !important;
+    padding: 8px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 8px #ff9900a0;
+    transition: background 0.3s, color 0.3s;
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+.boton-link:hover {
+    background: #fff;
+    color: #ff9900 !important;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #181818;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ff9900a0;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid #ff9900;
+}
+
+textarea {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    min-height: 40px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    resize: vertical;
+    box-shadow: none;
+}
+
+/* Reglas responsivas eliminadas durante restauración. Mantener reglas básicas en el CSS original si es necesario. */
+
+/* Precios del menú: separados a la derecha y color naranja */
+.precio-derecha {
+    color: #ff9900 !important;
+    float: right;
+    margin-left: 12px;
+    font-weight: bold;
+}
